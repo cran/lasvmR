@@ -1,4 +1,4 @@
-de0f8747488407275406c35b18ee6df3 *DESCRIPTION
+a4bf3c15d33cf35623710928ac6307a9 *DESCRIPTION
 b4cf118dacc25e916de1c82a7e5e0362 *NAMESPACE
 91f673b44493cc2e9299dfc9820a4c89 *R/RcppExports.R
 47332c22aab7fa5573016fc2b7e290c9 *R/lasvmPredict.R
@@ -7,10 +7,10 @@ bf782601f63fca0f4c45297ff7e93491 *R/lasvmTrain.R
 35dcd5e20816704a45007eb76ea979cd *R/zzz.R
 9f4ebce3b8214176c3cb49e52d9fdad7 *TODO
 50e1709034cb4251c4d0cc2fc852f2c7 *build/vignette.rds
-18dc2014c60691b03a032e3f88e94f34 *cleanup
+b440dc87a90b73b9f74570206d713070 *cleanup
 073b30715c16eeee415323631a1fe555 *inst/doc/lasvmR-vignette.R
 f494773087ed28f11435838cb7966b21 *inst/doc/lasvmR-vignette.Rmd
-1446b87a772a7caae07b55977fa525c9 *inst/doc/lasvmR-vignette.html
+efd2b8f4eede7be159da46b83e4732f9 *inst/doc/lasvmR-vignette.html
 8b085b8a86d99268fd3acd0777ef56ac *man/lasvmPredict.Rd
 abf8a5bde114414360f6d8b0ac5a0bcb *man/lasvmPredictWrapper.Rd
 102644dffa058bc24b0d96049c5765cf *man/lasvmR.Rd
@@ -21,11 +21,11 @@ b7b97470491d3174ac15fb992d817910 *src/RcppExports.cpp
 57405c11b8dbd3becbaede1838f7e42a *src/kcache.h
 f66ad453fc9869d79ba3b4127f093c6a *src/kernel.cpp
 464659bad02ecbcdb3cbc7aca8843989 *src/kernel.h
-a6e466cdb6672d9f33c5046d0288e88f *src/la_svm.cpp
-aef486d898fd6f7d9bacd8415d087c5c *src/la_test.cpp
+f7d03e63ee5cbb128b58479856d1cdcd *src/la_svm.cpp
+95080148bc449b44173d4d3beefaaa81 *src/la_test.cpp
 93c99a86c08d16cda5f0b2ce0e4ff3b9 *src/lasvm.cpp
 66bac61c1e371293605d16166943dc43 *src/lasvm.h
-ea4539383f7d29bf92da0f8e305a962e *src/lasvm_wrapper.cpp
+a2c6f66b2fd0bb142e3986c1b3de2db9 *src/lasvm_wrapper.cpp
 f29da614c8a19aea807a31b99e906245 *src/messages.cpp
 b77acaf2f8092d82424a31153c7f1a64 *src/messages.h
 12ca7a745dde4e58a443f6a97c9eea15 *src/vector.cpp

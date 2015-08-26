@@ -1,7 +1,5 @@
 // -*- Mode: c++; c-file-style: "stroustrup"; -*-
 
-using namespace std;
-
 #include <stdio.h>
 #include <vector>
 #include <cmath>
@@ -13,6 +11,8 @@ using namespace std;
 
 #include <Rcpp.h>
 using namespace Rcpp;
+
+using namespace std;
 
 
 #include "vector.h"
@@ -51,7 +51,7 @@ private:
 };
 stopwatch::~stopwatch()
 {
-    clock_t total = clock()-start; //get elapsed time
+//    clock_t total = clock()-start; //get elapsed time
 //     if (verbosity > 0)
 // 		Rcout<<"Time(secs): "<<double(total)/CLOCKS_PER_SEC<<endl;
 }
@@ -483,7 +483,7 @@ int select(lasvm_t *sv) // selection strategy
 
 void train_online(char *model_file_name, char *input_file_name)
 {
-    int t1,t2=0,i,s,l,j,k;
+    int t1,t2=0,i,s,l,j;
     double timer=0;
     stopwatch *sw; // start measuring time after loading is finished (not true for fulltime)
     sw=new stopwatch;    // save timing information

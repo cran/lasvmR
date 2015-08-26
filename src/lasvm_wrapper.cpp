@@ -229,7 +229,7 @@ List lasvmTrainWrapper(
 	}
 
 	// free memory
-	for (int i = 0; i < X.size(); i++) {
+	for (size_t i = 0; i < X.size(); i++) {
 		lasvm_sparsevector_destroy(X[i]);
 	}
 	X.clear();
@@ -291,9 +291,12 @@ List lasvmPredictWrapper(
 	}
 	
 	// copy alpha over to lasvm
-	alpha.clear();
+	alpha.resize (elif.size());
+	//alpha.clear();
 	std::copy (elif.begin(), elif.end(), alpha.begin());
-
+	
+	
+	
 	// copy SV over to lasvm
 	msv = elif.size();
 	lasvm_sparsevector_t* v;
@@ -353,13 +356,13 @@ List lasvmPredictWrapper(
 	}
 	
 	// free memory
-	for (int i = 0; i < X.size(); i++) {
+	for (size_t i = 0; i < X.size(); i++) {
 		lasvm_sparsevector_destroy(X[i]);
 	}
 	X.clear();
 
 	// free memory
-	for (int i = 0; i < Xsv.size(); i++) {
+	for (size_t i = 0; i < Xsv.size(); i++) {
 		lasvm_sparsevector_destroy(Xsv[i]);
 	}
 	Xsv.clear();

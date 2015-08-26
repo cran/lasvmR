@@ -1,7 +1,6 @@
 // -*- mode: c++; c-file-style: "stroustrup"; -*-
 
 
-using namespace std;
 #include <stdio.h>
 #include <vector>
 #include <cmath>

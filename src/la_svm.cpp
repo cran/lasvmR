@@ -139,12 +139,8 @@ void la_svm_parse_command_line(int argc, char **argv, char *input_file_name, cha
             selection_type = atoi(argv[i]);
             break;
         case 'l':
-            while(1)
-            {
-                select_size.push_back(atof(argv[i]));
-                ++i; if((argv[i][0]<'0') || (argv[i][0]>'9')) break; 
-            }
-            i--;
+			// as we only support one time value we only read one time value.
+			select_size.push_back(atof(argv[i]));
             break;
         case 'd':
             degree = atof(argv[i]);

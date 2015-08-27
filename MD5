@@ -1,4 +1,4 @@
-a4bf3c15d33cf35623710928ac6307a9 *DESCRIPTION
+97d789fd45229cfeebd2d5ae6d76341d *DESCRIPTION
 b4cf118dacc25e916de1c82a7e5e0362 *NAMESPACE
 91f673b44493cc2e9299dfc9820a4c89 *R/RcppExports.R
 47332c22aab7fa5573016fc2b7e290c9 *R/lasvmPredict.R
@@ -21,7 +21,7 @@ b7b97470491d3174ac15fb992d817910 *src/RcppExports.cpp
 57405c11b8dbd3becbaede1838f7e42a *src/kcache.h
 f66ad453fc9869d79ba3b4127f093c6a *src/kernel.cpp
 464659bad02ecbcdb3cbc7aca8843989 *src/kernel.h
-f7d03e63ee5cbb128b58479856d1cdcd *src/la_svm.cpp
+c3f48c7669ee8e91409bd68c61bc269f *src/la_svm.cpp
 95080148bc449b44173d4d3beefaaa81 *src/la_test.cpp
 93c99a86c08d16cda5f0b2ce0e4ff3b9 *src/lasvm.cpp
 66bac61c1e371293605d16166943dc43 *src/lasvm.h
